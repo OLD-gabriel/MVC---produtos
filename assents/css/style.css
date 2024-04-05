@@ -6,6 +6,7 @@ body {
     padding: 0;
     height: 100vh;
     position: relative;
+  padding-bottom: 150px; 
 }
 
 .info-user {
@@ -70,13 +71,14 @@ body {
 
 .footer {
     background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: absolute;
-    bottom: 0px;
-    bottom: 0;
+    color: #fff; 
     width: 100%;
-    text-align: center;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0; 
 }
 
 .container {
